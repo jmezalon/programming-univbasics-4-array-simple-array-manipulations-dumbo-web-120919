@@ -27,7 +27,8 @@ def using_concat(array, array2)
 end
 
 def using_insert(array, element)
-  array[4] = array.insert(element)
+  newarr = array[4]
+  array.insert(newarr)
 end
 
 def using_uniq(array)
@@ -43,6 +44,6 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, interger)
-  interger--
-  array.pop(interger)
+  to_be_deleted = interger - 1
+  array.pop(to_be_deleted)
 end

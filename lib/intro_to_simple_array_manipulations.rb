@@ -44,6 +44,5 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, interger)
-  to_be_deleted = interger - 1
-  array.pop(to_be_deleted)!
+  array.delete_at(interger)
 end
